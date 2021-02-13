@@ -20,7 +20,7 @@ function HeroSection() {
                 buttonStyle='btn--primary'
                 buttonSize='btn--large'
                 >
-                WATCH TRAILOR <i className='far
+                VIEW GALLERY <i className='far
                 fa-play-circle' />
                 </Button>
             </div>
