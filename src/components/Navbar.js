@@ -52,11 +52,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/about'
+                to='/products'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                About
+                Products
               </Link>
             </li>
 
