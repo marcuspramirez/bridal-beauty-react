@@ -5,40 +5,40 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>We Provide On-Location Hair and Makeup Services for Bridal Parties...<br></br>Let Us Bring Your Vision to Life!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='jordan-images/bridal-party.jpeg'
+              text='Hair and makeup perfection is just one click away'
+              label='Hair'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='powell-images/brit-eyes.png'
+              text='Relax while we enhance your natural beauty'
+              label='Makeup'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='tabetha-short-images/brit.jpg'
+              text='Our professionls know all there is to know when it comes to cosmetics'
+              label='Brushing'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='alyssa-images/curls.jpg'
+              text='Look back at your photos with happiness and pride'
+              label='Curls'
               path='/about'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='brown-images/look.jpg'
+              text='See yourself shine on your special day'
+              label='Mirror-Image'
               path='/sign-up'
             />
           </ul>
