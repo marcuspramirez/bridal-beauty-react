@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>We Provide On-Location Hair and Makeup Services for Bridal Parties...<br></br>Let Us Bring Your Vision to Life!</h1>
+      <h1>We Provide On-Location Hair and Makeup Services for Bridal Parties<br></br>Let Us Bring Your Vision to Life!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
