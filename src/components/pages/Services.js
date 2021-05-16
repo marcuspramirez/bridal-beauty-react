@@ -1,6 +1,18 @@
 import React from 'react';
 import '../../App.css';
+import ServicesCard from '../ServicesCard';
 
-export default function Services() {
-  return <h1 className='services'>SERVICES</h1>;
+
+
+function ServicesList() {
+  return (
+    <>
+     
+      <ServicesCard />
+      
+      
+    </>
+  );
 }
+
+export default ServicesList;

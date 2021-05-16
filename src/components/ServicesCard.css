@@ -1,0 +1,15 @@
+.services-list {
+    font-size: 20px;
+}
+
+.services-list-header {
+    font-size: 25px;
+    color: rgb(192, 24, 116);
+    justify-content: left;
+    align-items: left;
+}
+
+.main-header {
+    font-size: 30px;
+    
+}
