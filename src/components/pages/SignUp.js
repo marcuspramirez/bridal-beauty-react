@@ -1,18 +1,18 @@
 import React from 'react';
 import '../../App.css';
-import ServicesCard from '../ServicesCard';
+import SignUpCard from '../SignUpCard';
 
 
 
-function ServicesList() {
+function ContactForm() {
   return (
     <>
      
-      <ServicesCard />
+      <SignUpCard />
       
       
     </>
   );
 }
 
-export default ServicesList;
+export default ContactForm;
