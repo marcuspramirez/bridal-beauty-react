@@ -11,6 +11,7 @@ import Gallery from './components/pages/Gallery';
 
 
 
+
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
         </Switch>
         <Footer />
       </Router>
+      
     </>
   );
 }
