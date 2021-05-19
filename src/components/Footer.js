@@ -20,7 +20,7 @@ function Footer() {
                             placeholder="Your Email"
                             className="footer-input"
                         />
-                        <Button buttonStyle='btn--outline'>Subscibe</Button>
+                        <Button buttonStyle='btn--outline'>Subscribe</Button>
                     </form>
                 </div>
             </section>
@@ -44,8 +44,8 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Social Media</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
+                        <Link to='https://www.instagram.com/bridalbeautybybrittany/'>Instagram</Link>
+                        <Link to='google.com'>Facebook</Link>
                         <Link to='/'>Twitter</Link>
                     </div>
                 </div>
