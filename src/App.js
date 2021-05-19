@@ -11,7 +11,6 @@ import Gallery from './components/pages/Gallery';
 
 
 
-
 function App() {
   return (
     <>
@@ -21,11 +20,12 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
           <Route path='/about' component={About} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/sign-up' component={Gallery} />
           <Route path='/gallery' component={Gallery} />
         </Switch>
         <Footer />
       </Router>
+      
       
     </>
   );
