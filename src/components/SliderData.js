@@ -6,10 +6,10 @@ export const SliderData = [
     image: './brown-images/img-1530.JPG'
 },
 {
-    image: './esbrook-images/img-1533.JPG'
+    image: './angela-images/walk-down.JPG'
 },
 {
-    image: './esbrook-images/black-white.JPG'
+    image: './angela-images/vail.JPG'
 },
 {
     image: './angela-images/b-party.JPG'
@@ -25,10 +25,10 @@ export const SliderData = [
     image: './esbrook-images/closeUp.JPG'
 },
 {
-    image: './lamb-images/lamb.JPG'
+    image: './tabetha-short-images/tab-group.JPG'
 },
 {
-    image: './lamb-images/1470.JPG'
+    image: './truesdell-images/couple.JPG'
 },
 {
     image: './tabetha-short-images/black-hair.JPG'

@@ -8,7 +8,7 @@ function Footer() {
         <div className='footer-container'>
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Subscibe to get the latest emails and deals 
+                    Subscibe to get the latest emails and deals ** Under Construction **
                 </p>
                 <p className="footer-subscription-text">
                     You can unsubscribe at any time
@@ -29,15 +29,15 @@ function Footer() {
                     <div className="footer-link-items">
                         <h2>About Us</h2>
                         <Link to='/about'>About Brittany</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Location</Link>
+                        <Link to='/services'>Services</Link>
+                        <Link to='/gallery'>Gallery</Link>
                         
                     </div>
                     <div className="footer-link-items">
                         <h2>Contact</h2>
                         <Link to='/'>Call</Link>
                         <Link to='/'>Email</Link>
-                        <Link to='/'>Tweet</Link>
+                        
                         
                     </div>
                 </div>
@@ -45,7 +45,7 @@ function Footer() {
                     <div className="footer-link-items">
                         <h2>Social Media</h2>
                         <Link to='https://www.instagram.com/bridalbeautybybrittany/'>Instagram</Link>
-                        <Link to='google.com'>Facebook</Link>
+                        <Link to='/'>Facebook</Link>
                         <Link to='/'>Twitter</Link>
                     </div>
                 </div>
