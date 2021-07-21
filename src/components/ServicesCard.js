@@ -20,8 +20,6 @@ function Services() {
                       <li>Teeth Whitening</li>
                       <li>Spray Tanning</li>
                       <li>Facials</li>
-                      <li>Microblading</li>
-                      <li>& Much</li>
                   </ul>
 
                   
