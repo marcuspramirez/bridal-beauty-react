@@ -15,7 +15,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          BOOK APPOINTMENT
+          Under Construction
         </Button>
         <Button
           className='btns'
