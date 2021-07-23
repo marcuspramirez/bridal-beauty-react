@@ -1,7 +1,7 @@
 export const SliderData = [
 
 {
-    image: './brown-images/img-1530.JPG'
+    image: './brown-images/lightroom-3.JPG'
 },
 {
     image: './angela-images/walk-down.JPG'
@@ -60,5 +60,33 @@ export const SliderData = [
 },
 {
     image: './brown-images/lashes.JPG'
-}
+},
+{
+    image: './emailed-images/purpDress.JPG'
+},
+{
+    image: './emailed-images/cheek-kiss.JPG'
+},
+{
+    image: './emailed-images/chin.JPEG'
+},
+{
+    image: './emailed-images/faces.JPEG'
+},
+{
+    image: './emailed-images/fore-head.JPEG'
+},
+{
+    image: './emailed-images/kiss.JPEG'
+},
+{
+    image: './emailed-images/lips.JPEG'
+},
+{
+    image: './emailed-images/mirror-lipstick.JPG'
+},
+{
+    image: './emailed-images/white-dress.JPG'
+},
+
 ]
