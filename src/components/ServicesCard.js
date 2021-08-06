@@ -4,30 +4,102 @@ import './ServicesCard.css';
 
 function Services() {
     return (
-        <div className='cards'>
-            <h1 className='main-header'>Our Team Specializes in Making Brides Look & Feel Beautiful</h1>
-            <div className='cards__container'>
-                <div className='cards__wrapper'>
-                  <div className='services-list-header'>
-                      <h3>Services Include:
-                      </h3>
-                  </div>
+      <div style={{ 
+        backgroundImage: "url(" + "https://images.unsplash.com/photo-1628008043532-1e4023e72695?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5Mnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" + ")",
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        bacgroundRepeat: 'no-repeat'
 
-                  <ul className='services-list'>
-                      <li>Formal Hairstyling</li>
-                      <li>Traditional & Airbrush Makeup</li>
-                      <li>Lash Extensions</li>
-                      <li>Teeth Whitening</li>
-                      <li>Spray Tanning</li>
-                      <li>Facials</li>
-                  </ul>
 
-                  
 
-                </div>
-            </div>
-        </div>
+      }}>
+        Hello World
+        fsdfsd
+        sdfsdfsd
+        sdfsdfsdsdf
+        dsf
+        dsff
+        dsfds
+        fsdfsdf
+        d
+        fsdfsdf
+        ds
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdftart
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdftart
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdftart
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdftart
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+        <br/>
+        sdfsdfsdsdf
+      
+    
+      </div>
     );
-}
+  }
 
 export default Services;
