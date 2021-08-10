@@ -1,18 +1,19 @@
 import React from 'react';
 import '../../App.css';
-import ServicesCard from '../ServicesCard';
+import ServicesCards from '../ServicesCards';
 
 
 
-function ServicesList() {
+
+function Services() {
   return (
     <>
      
-      <ServicesCard />
+      <ServicesCards />
       
       
     </>
   );
 }
 
-export default ServicesList;
+export default Services;
