@@ -1,42 +1,360 @@
-import React, { useState } from 'react';
-import { SliderData } from './SliderData';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import React from 'react';
+import './ServicesCards.css';
+import CardItem from './CardItem';
 
-const ImageSlider = ({ slides }) => {
-  const [current, setCurrent] = useState(0);
-  const length = slides;
-
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
-
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
-
-  
-  
-
+function GallaryCards() {
   return (
+
+    <div className='cards'>
       
-    <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-      {SliderData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt='travel image' className='image' />
-            )}
-          </div>
-        );
-      })}
+      
+          <ul className='cards__items'>
+            <CardItem
+              src='alyssa-images/alyssaRyan1.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='alyssa-images/alyssaRyan2.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='alyssa-images/alyssaRyan3.jpg'
+              path='/sign-up'
+            />
 
-    </section>
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='alyssa-images/alyssaryan.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='alyssa-images/curls.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='angela-images/b-party.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='angela-images/a2.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='angela-images/couple.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='angela-images/a1.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='angela-images/a3.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='brown-images/hair.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='angela-images/a5.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='brown-images/b2.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='brown-images/b5.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='emailed-images/e1.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='emailed-images/e2.jpeg'
+              path='/services'
+            />
+            <CardItem
+              src='emailed-images/e3.jpeg'
+              path='/about'
+            />
+            <CardItem
+              src='emailed-images/e4.jpeg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='emailed-images/e5.jpeg'
+              path='/services'
+            />
+            <CardItem
+              src='emailed-images/e6.jpeg'
+              path='/about'
+            />
+            <CardItem
+              src='emailed-images/e7.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='emailed-images/e8.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='esbrook-images/c3.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='esbrook-images/c2.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='esbrook-images/c4.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='esbrook-images/c9.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='esbrook-images/c6.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='esbrook-images/c15.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='esbrook-images/c13.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='esbrook-images/c14.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='esbrook-images/c18.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='esbrook-images/c16.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='esbrook-images/c17.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='hayes-images/h1.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='hayes-images/h2.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='hayes-images/h3.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='hayes-images/h4.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='hayes-images/h5.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='jordan-images/j1.jpeg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='jordan-images/j3.jpeg'
+              path='/services'
+            />
+            <CardItem
+              src='jordan-images/j8.jpeg'
+              path='/about'
+            />
+            <CardItem
+              src='jordan-images/j9.jpeg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='jordan-images/j10.jpeg'
+              path='/services'
+            />
+            <CardItem
+              src='jordan-images/j11.jpeg'
+              path='/about'
+            />
+            <CardItem
+              src='jordan-images/j12.jpeg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='jordan-images/j13.jpeg'
+              path='/services'
+            />
+            <CardItem
+              src='jordan-images/j14.jpeg'
+              path='/about'
+            />
+            <CardItem
+              src='jordan-images/j16.jpeg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='jordan-images/j17.jpeg'
+              path='/services'
+            />
+            <CardItem
+              src='tabetha-short-images/t8.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='lamb-images/1470.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='powell-images/img-1387.png'
+              path='/services'
+            />
+            <CardItem
+              src='tabetha-short-images/black-hair.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='tabetha-short-images/img_2297.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+
+          <ul className='cards__items'>
+            <CardItem
+              src='tabetha-short-images/t1.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='tabetha-short-images/t4.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='tabetha-short-images/t3.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='tabetha-short-images/t5.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='tabetha-short-images/t6.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='tabetha-short-images/t7.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+
+          <ul className='cards__items'>
+            <CardItem
+              src='tabetha-short-images/tab-group.jpg'
+              path='/services'
+            />
+            <CardItem
+              src='truesdell-images/couchlaugh.jpg'
+              path='/about'
+            />
+            <CardItem
+              src='truesdell-images/couple.jpg'
+              path='/sign-up'
+            />
+
+          </ul>
+          
+
+
+
+
+        </div>
+
+        
+      
+    
   );
-};
+}
 
-export default ImageSlider;
+export default GallaryCards;
