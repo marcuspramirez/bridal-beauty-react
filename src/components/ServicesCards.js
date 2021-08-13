@@ -21,12 +21,12 @@ function ServicesCards() {
               path='/services'
             />
             <CardItem
-              src='brown-images/lashes.jpg'
+              src='brown-images/b4.jpg'
               text='Lash Extensions'
               path='/services'
             />
             <CardItem
-              src='esbrook-images/two-smile.jpg'
+              src='esbrook-images/c19.jpg'
               text='Teeth Whitening'
               path='/services'
             />
@@ -34,7 +34,7 @@ function ServicesCards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXJ6ICTQlS5ythDyvil0pc529xOHJQmZqpA&usqp=CAU'
+              src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDK1eMquUCYztDgM09UG6YXljFS9ouCSuSlQ&usqp=CAU'
               text='Spray Tanning'
               path='/services'
             />

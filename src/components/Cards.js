@@ -10,7 +10,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='jordan-images/bridal-party.jpeg'
+              src='jordan-images/j9.jpeg'
               text='Hair and makeup perfection is just one click away'
               label='Hair'
               path='/services'
