@@ -7,7 +7,7 @@ import Services from "./components/pages/Services";
 import About from "./components/pages/About";
 import Footer from "./components/Footer";
 import Gallery from "./components/pages/Gallery";
-import Login from "./components/pages/UserLogin";
+import SignUpForm from "./components/SignUpCard";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/sign-up" component={Gallery} />
-          <Route path="/login" component={Login} />
+          <Route path="/login" component={SignUpForm} />
         </Switch>
         <Footer />
       </Router>
