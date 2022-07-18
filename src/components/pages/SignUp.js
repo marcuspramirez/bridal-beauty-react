@@ -1,16 +1,11 @@
-import React from 'react';
-import '../../App.css';
-import SignUpCard from '../SignUpCard';
-
-
+import React from "react";
+import "../../App.css";
+import SignUpForm from "../SignUpCard";
 
 function ContactForm() {
   return (
     <>
-     
-      <SignUpCard />
-      
-      
+      <SignUpForm />
     </>
   );
 }
